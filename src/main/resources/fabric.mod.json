@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "firstmod",
+	"version": "${version}",
+	"name": "First Mod",
+	"description": "This is a first mod made by bor1bro :3",
+	"authors": [
+		"bor1bro :3"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/jopa/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bor1bro.firstmod.FirstMod"
+		],
+		"client": [
+			"net.bor1bro.firstmod.FirstModClient"
+		],
+		"fabric-datagen": [
+			"net.bor1bro.firstmod.FirstModDataGenerator"
+		]
+	},
+	"mixins": [
+		"firstmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

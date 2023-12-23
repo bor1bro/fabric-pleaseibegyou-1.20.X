@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "firstmod:block/flayered_bor1bronium_block1_top",
+    "bottom": "firstmod:block/flayered_bor1bronium_block1_bottom",
+    "top": "firstmod:block/flayered_bor1bronium_block1_top",
+    "side": "firstmod:block/flayered_bor1bronium_block1_side"
+  }
+}

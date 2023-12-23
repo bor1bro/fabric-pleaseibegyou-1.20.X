@@ -1,0 +1,22 @@
+{
+  "item.firstmod.bor1bronium": "Bor1bronium",
+  "item.firstmod.raw_bor1bronium": "Raw Bor1bronium",
+  "item.firstmod.raw_bor1bronium_snack": "Raw Bor1bronium Snack",
+  "item.firstmod.cooked_bor1bronium_snack": "Cooked Bor1bronium Snack",
+  "item.firstmod.netherite_knife": "Netherite Knife",
+  "item.firstmod.netherite_flayer": "Netherite Flayer",
+  "item.firstmod.bor1bronium_member": "Bor1bronium Member",
+  "item.firstmod.bor1bronium_flaps": "Bor1bronium Flaps",
+
+  "block.firstmod.bor1bronium_block": "Bor1bronium",
+  "block.firstmod.cut_bor1bronium_block": "Cut Bor1bronium",
+  "block.firstmod.flayered_bor1bronium_block1": "Partly Flayered Bor1bronium",
+  "block.firstmod.flayered_bor1bronium_block2": "Half Flayered Bor1bronium",
+  "block.firstmod.flayered_bor1bronium_block3": "Fully Flayered Bor1bronium",
+  "block.firstmod.raw_bor1bronium_block": "Block of Raw Bor1bronium",
+  "block.firstmod.bor1bronium_ore": "Bor1bronium Ore",
+  "block.firstmod.deepslate_bor1bronium_ore": "Deepslate Bor1bronium Ore",
+  "block.firstmod.bor1bronium_stash": "Bor1bronium Stash",
+
+  "itemgroup.bor1bronium": "bor1bro Mod"
+}

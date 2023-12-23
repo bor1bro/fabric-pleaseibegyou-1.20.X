@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "firstmod:item/cooked_bor1bronium_snack"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    "## ",
+    "## "
+  ],
+  "key": {
+    "#": {
+      "item": "firstmod:bor1bronium"
+    }
+  },
+  "result": {
+    "item": "firstmod:bor1bronium_block"
+  }
+}

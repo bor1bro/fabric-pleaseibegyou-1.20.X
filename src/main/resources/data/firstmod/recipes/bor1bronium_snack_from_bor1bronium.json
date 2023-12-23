@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "food",
+  "ingredients": [
+    {
+      "item": "firstmod:bor1bronium"
+    },
+    {
+      "item": "firstmod:netherite_knife"
+    }
+  ],
+  "result": {
+    "item": "firstmod:raw_bor1bronium_snack",
+    "count": 1
+  }
+}

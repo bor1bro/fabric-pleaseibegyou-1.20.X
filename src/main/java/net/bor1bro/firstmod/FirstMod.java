@@ -1,5 +1,8 @@
 package net.bor1bro.firstmod;
 
+import net.bor1bro.firstmod.item.ModItemGroups;
+import net.bor1bro.firstmod.item.ModItems;
+import net.bor1bro.firstmod.block.ModBlocks;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,8 @@ public class FirstMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

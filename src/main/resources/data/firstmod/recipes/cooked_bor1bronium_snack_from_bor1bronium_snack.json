@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+      "item": "firstmod:raw_bor1bronium_snack"
+  },
+  "result": "firstmod:cooked_bor1bronium_snack",
+  "cookingtime": 1000
+}

@@ -9,4 +9,6 @@ public class ModFoodComponents {
     public static final FoodComponent COOKED_BOR1BRONIUM_SNACK = new FoodComponent.Builder().hunger(1).saturationModifier(0.25f)
             .statusEffect(new StatusEffectInstance(StatusEffects.DARKNESS, 200), 1f)
             .statusEffect(new StatusEffectInstance(StatusEffects.NAUSEA, 200), 0.25f).build();
+    public static final FoodComponent BOR1BRONIUM_MEAT = new FoodComponent.Builder().hunger(4).saturationModifier(0.5f)
+            .build();
 }

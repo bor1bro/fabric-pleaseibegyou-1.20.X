@@ -2,6 +2,7 @@ package net.bor1bro.firstmod.item.custom;
 
 import net.bor1bro.firstmod.block.ModBlocks;
 import net.bor1bro.firstmod.item.ModItems;
+import net.bor1bro.firstmod.util.ModTags;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.ItemEntity;
@@ -12,6 +13,7 @@ import net.minecraft.item.ItemUsageContext;
 import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.ActionResult;
+import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 
@@ -28,9 +30,9 @@ public class NetheriteFlayerItem extends Item {
             World world = context.getWorld();
             BlockPos positionClicked = context.getBlockPos();
             BlockState state = context.getWorld().getBlockState(positionClicked);
-            if (state.isOf(ModBlocks.CUT_BOR1BRONIUM_BLOCK) ||
-                    state.isOf(ModBlocks.FLAYERED_BOR1BRONIUM_BLOCK1) ||
-                    state.isOf(ModBlocks.FLAYERED_BOR1BRONIUM_BLOCK2))
+            ItemStack item = context.getStack();
+            Hand hand = context.getHand();
+            if (state.isIn(ModTags.Blocks.FLAYERABLE_BLOCKS))
             {
                 world.playSound(player,
                         positionClicked,
@@ -39,6 +41,9 @@ public class NetheriteFlayerItem extends Item {
                 world.spawnEntity(new ItemEntity(world, positionClicked.getX(),
                         positionClicked.getY()+1, positionClicked.getZ(), new ItemStack(ModItems.BOR1BRONIUM_FLAPS)));
                 world.setBlockState(positionClicked, flayeredBlockState(state));
+                item.damage(1, player, (p) -> {
+                    p.sendToolBreakStatus(hand);
+                });
                 return ActionResult.SUCCESS;
             }
         }

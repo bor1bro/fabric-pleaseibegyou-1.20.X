@@ -21,6 +21,6 @@ public class CutBor1broniumBlock extends Block {
     {
 
         float rnd = rand_float.nextFloat(0.5f);
-        world.addParticle(ParticleTypes.DAMAGE_INDICATOR, pos.getX() + 0.5f,pos.getY() + 0.5f,pos.getZ() + 0.5f, rnd, 1.5f, rnd);
+        world.addParticle(ParticleTypes.DAMAGE_INDICATOR, pos.getX() + 0.5f,pos.getY() + 0.5f,pos.getZ() + 0.5f, rnd, 0.5f, rnd);
     }
 }

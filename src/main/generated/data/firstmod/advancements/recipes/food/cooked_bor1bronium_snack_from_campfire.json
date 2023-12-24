@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_bor1bronium_snack": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:raw_bor1bronium_snack"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cooked_bor1bronium_snack_from_campfire"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_raw_bor1bronium_snack",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cooked_bor1bronium_snack_from_campfire"
+    ]
+  },
+  "sends_telemetry_event": false
+}

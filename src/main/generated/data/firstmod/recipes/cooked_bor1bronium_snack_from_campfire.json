@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 1000,
+  "experience": 0.0,
+  "ingredient": {
+    "item": "firstmod:raw_bor1bronium_snack"
+  },
+  "result": "firstmod:cooked_bor1bronium_snack"
+}

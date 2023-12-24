@@ -8,7 +8,11 @@ import net.minecraft.block.entity.BlockEntity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.util.Hand;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.random.Random;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -28,7 +32,11 @@ public class FlayeredBor1broniumBlock extends Block {
             }
             if (state.isOf(ModBlocks.FLAYERED_BOR1BRONIUM_BLOCK3) && tool.isOf(ModItems.NETHERITE_KNIFE))
             {
-                world.spawnEntity(new ItemEntity(world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.BOR1BRONIUM, 4)));
+                world.spawnEntity(new ItemEntity(world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.BOR1BRONIUM_MEAT)));
+                world.spawnEntity(new ItemEntity(world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.BOR1BRONIUM_MEAT)));
+                world.spawnEntity(new ItemEntity(world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.BOR1BRONIUM_MEAT)));
+                world.spawnEntity(new ItemEntity(world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(ModItems.BOR1BRONIUM_MEAT)));
+                world.spawnEntity(new ItemEntity(world, pos.getX(), pos.getY(), pos.getZ(), new ItemStack(Items.BONE)));
             }
             if (state.isOf(ModBlocks.FLAYERED_BOR1BRONIUM_BLOCK3) && !tool.isOf(ModItems.NETHERITE_KNIFE))
             {

@@ -20,8 +20,10 @@ public class ModItemGroups {
                         entries.add(ModItems.BOR1BRONIUM);
                         entries.add(ModItems.BOR1BRONIUM_MEMBER);
                         entries.add(ModItems.BOR1BRONIUM_FLAPS);
+                        entries.add(ModItems.BOR1BRONIUM_SKIN);
                         entries.add(ModItems.RAW_BOR1BRONIUM_SNACK);
                         entries.add(ModItems.COOKED_BOR1BRONIUM_SNACK);
+                        entries.add(ModItems.BOR1BRONIUM_MEAT);
                         entries.add(ModBlocks.RAW_BOR1BRONIUM_BLOCK);
                         entries.add(ModBlocks.BOR1BRONIUM_BLOCK);
                         entries.add(ModBlocks.CUT_BOR1BRONIUM_BLOCK);
@@ -33,6 +35,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BOR1BRONIUM_STASH);
                         entries.add(ModItems.NETHERITE_KNIFE);
                         entries.add(ModItems.NETHERITE_FLAYER);
+                        entries.add(ModItems.POOPY);
                     }).build());
     public static void registerItemGroups()
     {

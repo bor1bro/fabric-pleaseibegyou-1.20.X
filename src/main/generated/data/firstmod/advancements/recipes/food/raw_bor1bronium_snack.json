@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_bor1bronium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:bor1bronium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_netherite_knife": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "firstmod:netherite_knife"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "firstmod:raw_bor1bronium_snack"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_bor1bronium",
+      "has_netherite_knife",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "firstmod:raw_bor1bronium_snack"
+    ]
+  },
+  "sends_telemetry_event": false
+}

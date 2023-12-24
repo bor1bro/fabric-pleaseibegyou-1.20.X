@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "firstmod:raw_bor1bronium"
+  },
+  "result": "firstmod:bor1bronium"
+}

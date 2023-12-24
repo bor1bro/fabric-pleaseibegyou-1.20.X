@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "firstmod:bor1bronium_flaps"
+    },
+    {
+      "item": "firstmod:bor1bronium_flaps"
+    },
+    {
+      "item": "firstmod:bor1bronium_flaps"
+    },
+    {
+      "item": "firstmod:bor1bronium_flaps"
+    },
+    {
+      "item": "firstmod:bor1bronium_flaps"
+    },
+    {
+      "item": "firstmod:bor1bronium_flaps"
+    },
+    {
+      "item": "firstmod:bor1bronium_flaps"
+    },
+    {
+      "item": "firstmod:bor1bronium_flaps"
+    },
+    {
+      "item": "firstmod:bor1bronium_flaps"
+    }
+  ],
+  "result": {
+    "item": "firstmod:bor1bronium_skin"
+  }
+}

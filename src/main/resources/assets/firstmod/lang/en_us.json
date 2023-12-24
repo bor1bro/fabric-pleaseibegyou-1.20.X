@@ -7,16 +7,20 @@
   "item.firstmod.netherite_flayer": "Netherite Flayer",
   "item.firstmod.bor1bronium_member": "Bor1bronium Member",
   "item.firstmod.bor1bronium_flaps": "Bor1bronium Flaps",
+  "item.firstmod.bor1bronium_skin": "Bor1bronium Skin",
+  "item.firstmod.poopy": "Poopy",
 
-  "block.firstmod.bor1bronium_block": "Bor1bronium",
-  "block.firstmod.cut_bor1bronium_block": "Cut Bor1bronium",
-  "block.firstmod.flayered_bor1bronium_block1": "Partly Flayered Bor1bronium",
-  "block.firstmod.flayered_bor1bronium_block2": "Half Flayered Bor1bronium",
-  "block.firstmod.flayered_bor1bronium_block3": "Fully Flayered Bor1bronium",
-  "block.firstmod.raw_bor1bronium_block": "Block of Raw Bor1bronium",
+  "block.firstmod.bor1bronium_block": "Bor1bronium Block",
+  "block.firstmod.cut_bor1bronium_block": "Cut Bor1bronium Block",
+  "block.firstmod.flayered_bor1bronium_block1": "Partly Flayered Bor1bronium Block",
+  "block.firstmod.flayered_bor1bronium_block2": "Half Flayered Bor1bronium Block",
+  "block.firstmod.flayered_bor1bronium_block3": "Fully Flayered Bor1bronium Block",
+  "block.firstmod.raw_bor1bronium_block": "Raw Bor1bronium Block",
   "block.firstmod.bor1bronium_ore": "Bor1bronium Ore",
   "block.firstmod.deepslate_bor1bronium_ore": "Deepslate Bor1bronium Ore",
   "block.firstmod.bor1bronium_stash": "Bor1bronium Stash",
+
+  "tooltip.firstmod.bor1bronium_stash.tooltip": "Wonder what's inside",
 
   "itemgroup.bor1bronium": "bor1bro Mod"
 }

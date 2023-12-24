@@ -22,15 +22,19 @@ public class ModItems {
     public static final Item BOR1BRONIUM = registerItem("bor1bronium", new Item(new FabricItemSettings()));
     public static final Item BOR1BRONIUM_MEMBER = registerItem("bor1bronium_member", new Item(new FabricItemSettings()));
     public static final Item BOR1BRONIUM_FLAPS = registerItem("bor1bronium_flaps", new Item(new FabricItemSettings()));
+    public static final Item BOR1BRONIUM_SKIN = registerItem("bor1bronium_skin", new Item(new FabricItemSettings()));
+    public static final Item POOPY = registerItem("poopy", new Item(new FabricItemSettings()));
     public static final Item RAW_BOR1BRONIUM = registerItem("raw_bor1bronium", new Item(new FabricItemSettings()));
     public static final Item RAW_BOR1BRONIUM_SNACK = registerItem("raw_bor1bronium_snack",
             new Bor1broniumSnackItem(new FabricItemSettings().maxCount(16).recipeRemainder(ModItems.NETHERITE_KNIFE)));
     public static final Item COOKED_BOR1BRONIUM_SNACK = registerItem("cooked_bor1bronium_snack",
             new Bor1broniumSnackItem(new FabricItemSettings().food(ModFoodComponents.COOKED_BOR1BRONIUM_SNACK).maxCount(16)));
+    public static final Item BOR1BRONIUM_MEAT = registerItem("bor1bronium_meat",
+            new Item(new FabricItemSettings().food(ModFoodComponents.BOR1BRONIUM_MEAT).maxCount(16)));
     public static final Item NETHERITE_KNIFE = registerRemainderItem("netherite_knife",
-            new NetheriteKnifeItem(new FabricItemSettings().maxCount(1)));
+            new NetheriteKnifeItem(new FabricItemSettings().maxCount(1).maxDamage(2031).fireproof()));
     public static final Item NETHERITE_FLAYER = registerItem("netherite_flayer",
-            new NetheriteFlayerItem(new FabricItemSettings().maxCount(1)));
+            new NetheriteFlayerItem(new FabricItemSettings().maxCount(1).maxDamage(2031).fireproof()));
 
     private static void addItemsToIngredientItemGroup(FabricItemGroupEntries entries)
     {
@@ -38,10 +42,14 @@ public class ModItems {
         entries.add(RAW_BOR1BRONIUM);
         entries.add(BOR1BRONIUM_MEMBER);
         entries.add(BOR1BRONIUM_FLAPS);
+        entries.add(BOR1BRONIUM_SKIN);
+        entries.add(POOPY);
     }
     private static void addItemsToFoodAndDrinkItemGroup(FabricItemGroupEntries entries)
     {
+        entries.add(RAW_BOR1BRONIUM_SNACK);
         entries.add(COOKED_BOR1BRONIUM_SNACK);
+        entries.add(BOR1BRONIUM_MEAT);
     }
     private static void addItemsToToolItemGroup(FabricItemGroupEntries entries)
     {

@@ -1,0 +1,5 @@
+// 1.20.1	2023-12-24T21:28:50.8796703	First Mod/Tags for minecraft:block
+403d98b7206ae27f6d20aa84b2d3a4a8ace557e2 data\firstmod\tags\blocks\flayerable_blocks.json
+1f0d20af82120a6c57932a06fc0939fcd702d198 data\fabric\tags\blocks\needs_tool_level_4.json
+d8811966417d921b33aef3d88a4af8298952f6ac data\minecraft\tags\blocks\mineable\pickaxe.json
+6ff583b01a7b144ffd718c3fc80b029af2f24ce1 data\minecraft\tags\blocks\needs_diamond_tool.json
